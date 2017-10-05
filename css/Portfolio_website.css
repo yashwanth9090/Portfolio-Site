@@ -1,0 +1,116 @@
+@charset "UTF-8";
+/* CSS Document */
+.header-container {
+	display:flex;
+	justify-content: space-between;
+	position:relative;
+	width:80%;
+	left:20%;
+}
+
+.logo {
+	display:flex;
+	justify-content:flex-start;
+	padding-top:2%;
+}
+
+.name {
+   flex-direction:column;
+   justify-content: flex-end;
+}
+
+.description {
+	margin-left: 30%;
+}
+
+h1 {
+	font-size:36px;
+}
+
+p {
+	font-size:24px;
+}
+
+.line {
+	border: solid #ddd; 
+	border-width: 3px 0 0; 
+	clear: both; 
+	margin: 22px 0 21px; 
+	height: 0; 
+	width:80%;
+	float:right;
+}
+
+.main-image {
+	width: 80%;
+    margin-left: auto;
+	margin:auto;
+
+}
+
+.main-container {
+	 width: 100%;
+    display: flex;
+	//border: solid 1px #000;
+}
+
+.big-image {
+	width: 100%;
+}
+
+.profile-links {
+	display:flex;
+	flex-direction:column;
+	justify-content: space-between;
+	width: 20%;
+	padding-left:0;
+	padding-top:0;
+}
+
+.left-images {
+	height:80px;
+	width:80px;
+}
+
+
+* { 
+   font-family: 'Source Sans Pro', sans-serif;
+   box-sizing: border-box;
+}
+
+li {
+    justify-content:center;
+    display: flex;
+}
+
+.heading {
+	font-size:36px;
+	color:grey;
+	padding-top:1%;
+	padding-bottom:1%;
+}
+
+.featuredWork-container {
+	position:relative;
+	width:80%;
+	left:20%;
+	flex-direction:column;
+	flex-wrap:wrap;
+}
+
+.projects {
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+
+.projects-img {
+	 height:160px;
+	 width:230px;
+}
+
+figcaption {
+	padding-top:5px;
+	text-align:center;
+}

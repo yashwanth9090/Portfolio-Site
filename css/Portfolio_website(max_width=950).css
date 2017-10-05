@@ -1,0 +1,109 @@
+@charset "UTF-8";
+/* CSS Document */
+.header-container {
+	display:flex;
+	justify-content: space-between;
+	width:100%;
+	left:0;
+}
+
+.logo {
+	display:flex;
+	justify-content:flex-start;
+	padding-top:2%;
+}
+
+.name {
+   flex-direction:column;
+   justify-content: flex-end;
+   padding-top:2%;
+}
+
+.description {
+	margin-left: 30%;
+}
+
+h1 {
+	font-size:30px;
+}
+
+p {
+	font-size:20px;
+}
+
+.line {
+	border: solid #ddd; 
+	border-width: 3px 0 0; 
+	clear: both; 
+	margin: 22px 0 21px; 
+	height: 0; 
+	width:100%;
+}
+
+.main-image {
+	width: 100%;
+    margin-left: auto;
+	margin:auto;
+	padding:2%;
+
+}
+
+.main-container {
+	 width: 100%;
+    display: flex;
+	flex-direction:column;
+}
+
+.big-image {
+	width: 100%;
+}
+
+.profile-links {
+	display:flex;
+	flex-direction:row;
+	justify-content: space-around;
+	width: 100%;
+	padding-left:0;
+	padding-top:0;
+}
+
+.left-images {
+	height:80px;
+	width:80px;
+}
+
+* { 
+   font-family: 'Source Sans Pro', sans-serif;
+   box-sizing: border-box;
+}
+
+.heading {
+	font-size:36px;
+	color:grey;
+	padding-top:1%;
+	padding-bottom:1%;
+}
+
+.featuredWork-container {
+	width:100%;
+	flex-direction:column;
+	flex-wrap:wrap;
+	left:0;
+}
+
+.projects {
+	display:flex;
+	flex-direction:row;
+	flex-wrap:wrap;
+	justify-content:center;
+}
+
+.projects-img {
+	 height:130px;
+	 width:190px;
+}
+
+figcaption {
+	padding-top:5px;
+	text-align:center;
+}
