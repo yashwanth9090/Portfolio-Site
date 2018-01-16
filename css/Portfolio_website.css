@@ -32,11 +32,11 @@ p {
 }
 
 .line {
-	border: solid #ddd; 
-	border-width: 3px 0 0; 
-	clear: both; 
-	margin: 22px 0 21px; 
-	height: 0; 
+	border: solid #248f24;
+	border-width: 3px 0 0;
+	clear: both;
+	margin: 22px 0 21px;
+	height: 0;
 	width:80%;
 	float:right;
 }
@@ -73,9 +73,11 @@ p {
 }
 
 
-* { 
-   font-family: 'Source Sans Pro', sans-serif;
+* {
+   font-family: 'Julius Sans One', sans-serif;
+	 color: #80774c;
    box-sizing: border-box;
+	 background-color: #DCDCDC;
 }
 
 li {
