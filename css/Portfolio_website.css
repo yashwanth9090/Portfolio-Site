@@ -108,11 +108,48 @@ li {
 }
 
 .projects-img {
-	 height:160px;
-	 width:230px;
+	 height:180px;
+	 width:100%;
 }
 
 figcaption {
 	padding-top:5px;
 	text-align:center;
+}
+
+figure {
+	margin: 0;
+}
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    max-width: 290px;
+		margin-right: 1.5%;
+		margin-bottom: 2%;
+		padding-bottom: 1%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+.project-description {
+  font-size: 17px;
+  padding: 0 10px;
+  line-height: 1.4;
+	text-align: center;
+}
+.project-link {
+  font-size: 17px;
+  padding: 20px 0;
+	text-align: center;
+}
+.github-link {
+  font-weight: 400;
+  color: #008a45;
+  text-decoration: none;
+	text-align: center;
+}
+
+.github-link:hover {
+  background-color: #efebdc;
 }
