@@ -2,28 +2,25 @@
 /* CSS Document */
 .header-container {
 	display:flex;
-	justify-content:center;
+	justify-content: space-between;
 	width:100%;
-	flex-wrap:wrap;
+	left:0;
 }
 
 .logo {
 	display:flex;
-	justify-content:center;
+	justify-content:flex-start;
 	padding-top:2%;
 }
 
 .name {
    flex-direction:column;
-   justify-content:center;
+   justify-content: flex-end;
    padding-top:2%;
-   //border: 1px solid red;
 }
 
 .description {
-	display:flex;
-	justify-content:center;
-	margin-left:0;
+	margin-left: 30%;
 }
 
 h1 {
@@ -50,6 +47,7 @@ p {
 	padding:2%;
 
 }
+
 .main-container {
 	 width: 100%;
     display: flex;
@@ -63,17 +61,16 @@ p {
 .profile-links {
 	display:flex;
 	flex-direction:row;
-	justify-content:center;
+	justify-content: space-around;
 	width: 100%;
-	margin:0;
-	padding-bottom:10%;
+	padding-left:0;
+	padding-top:0;
 }
 
 .left-images {
-	height:50px;
-	width:50px;
+	height:80px;
+	width:80px;
 }
-
 
 * {
    font-family: 'Julius Sans One', sans-serif;
@@ -83,8 +80,6 @@ p {
 
 .heading {
 	font-size:36px;
-	display:flex;
-	justify-content:center;
 	color:grey;
 	padding-top:1%;
 	padding-bottom:1%;
@@ -105,11 +100,28 @@ p {
 }
 
 .projects-img {
-	 height:190px;
-	 width:260px;
+	 height:130px;
+	 width:100%;
 }
 
 figcaption {
 	padding-top:5px;
 	text-align:center;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 30%;
+		margin-right: 1.5%;
+		margin-bottom: 2%;
+		padding-bottom: 1%;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    padding: 2px 16px;
 }
