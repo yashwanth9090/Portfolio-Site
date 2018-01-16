@@ -2,25 +2,28 @@
 /* CSS Document */
 .header-container {
 	display:flex;
-	justify-content: space-between;
+	justify-content:center;
 	width:100%;
-	left:0;
+	flex-wrap:wrap;
 }
 
 .logo {
 	display:flex;
-	justify-content:flex-start;
+	justify-content:center;
 	padding-top:2%;
 }
 
 .name {
    flex-direction:column;
-   justify-content: flex-end;
+   justify-content:center;
    padding-top:2%;
+   //border: 1px solid red;
 }
 
 .description {
-	margin-left: 30%;
+	display:flex;
+	justify-content:center;
+	margin-left:0;
 }
 
 h1 {
@@ -47,7 +50,6 @@ p {
 	padding:2%;
 
 }
-
 .main-container {
 	 width: 100%;
     display: flex;
@@ -61,16 +63,17 @@ p {
 .profile-links {
 	display:flex;
 	flex-direction:row;
-	justify-content: space-around;
+	justify-content:center;
 	width: 100%;
-	padding-left:0;
-	padding-top:0;
+	margin:0;
+	padding-bottom:10%;
 }
 
 .left-images {
-	height:80px;
-	width:80px;
+	height:50px;
+	width:50px;
 }
+
 
 * {
    font-family: 'Julius Sans One', sans-serif;
@@ -80,6 +83,8 @@ p {
 
 .heading {
 	font-size:36px;
+	display:flex;
+	justify-content:center;
 	color:grey;
 	padding-top:1%;
 	padding-bottom:1%;
@@ -100,8 +105,8 @@ p {
 }
 
 .projects-img {
-	 height:130px;
-	 width:190px;
+	 height:190px;
+	 width:260px;
 }
 
 figcaption {
