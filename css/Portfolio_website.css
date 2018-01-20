@@ -43,7 +43,7 @@ p {
 
 .main-image {
 	width: 80%;
-    margin-left: auto;
+  margin-left: auto;
 	margin:auto;
 
 }
@@ -152,4 +152,13 @@ figure {
 
 .github-link:hover {
   background-color: #efebdc;
+}
+.blast {
+  display: inline-block;
+  color: #446ca2;
+  opacity: 0;
+}
+
+.blast:nth-child(odd) {
+  color: #b0c4de;
 }
