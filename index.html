@@ -102,5 +102,30 @@
 
           </div>
 			</section>
+			<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+	    <script src="velocity-master/velocity.js"></script>
+	    <script src="velocity-master/velocity.ui.js"></script>
+	    <script src="blast-master/jquery.blast.js"></script>
+	    <script>
+				    /* jquery.js */
+				    /* jquery.velocity.js */
+				    /* velocity.ui.js */
+
+				  $(".name")
+				    // Blast the text apart by letter.
+				    .blast({ delimiter: "letter" })
+				    // Slide the letters into view
+				    .velocity("transition.shrinkIn",
+				               {
+				                 display: null,
+				                 stagger: 35,
+				                 duration: 1000,
+				                 complete: function() {
+				                   // Reverse blast
+				                   $("div").blast(false);
+				                 }
+				               }
+				    );
+	    </script>
 	</body>
 </html>
